@@ -22,5 +22,7 @@
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="/home/evandro/Downloads/cors-filter-2.6.jar"/>
+	<classpathentry kind="lib" path="/home/evandro/Downloads/java-property-utils-1.9.1.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

@@ -1,6 +1,13 @@
 package br.com;
+import java.text.Annotation;
+
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
+
+import org.apache.catalina.connector.Response;
+
+import br.com.filter.SimpleCORSFilter;
+
 
 @Path("/menu")
 public class menu {
@@ -12,6 +19,8 @@ public class menu {
 		String response = "{\"name\":\"" + name + "\"}";
 		return response;
 	}
+	
+	
 	
 	@POST
 	@Consumes(MediaType.APPLICATION_JSON)
